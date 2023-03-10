@@ -118,5 +118,8 @@
   .containerFadeRight {
     display: none;
   }
+  .containerFadeNota {
+  display: inline-block;
+}
 
 }
