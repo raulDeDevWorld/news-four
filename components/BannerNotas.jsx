@@ -31,7 +31,7 @@ function redirect(rute) {
         <>
             {
                 items.map((item,) =>
-                    userDB[`${carpeta}${item}`] && postsIMG && <div className={`${styles.containerFadeRight}`} >
+                    userDB[`${carpeta}${item}`] && postsIMG && <div className={`${styles.containerFadeRight} ${styles.containerFadeNota}`} >
                         <Fade transitionDuration={800} duration={2000} scale={1}{...properties} indicators={true}>
                             {
                                 Object.keys(userDB[`${carpeta}${item}`]).map((i, index) =>
