@@ -372,7 +372,7 @@ background-color: red;
 
 
 
-@media (max-width: 850px) and (orientation: portrait) {
+@media (max-width: 850px) {
     .description {
         font-size: 12px;
     }
@@ -398,7 +398,7 @@ background-color: red;
         overflow: hidden;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(auto-fit, 180px);
-        grid-column-gap: 10px;
+        grid-column-gap: 5px;
         grid-row-gap: 10px;
         margin-bottom: 0px;
         color: transparent;
