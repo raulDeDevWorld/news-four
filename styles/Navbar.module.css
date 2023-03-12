@@ -77,7 +77,7 @@
   justify-content: center;
   align-content: center;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.481);
+  background-color: transparent;
   height: 2.5vw;
   padding: .3vw;
 
@@ -187,7 +187,7 @@
 
   .socialMedia {
     top: 70px;
-
+    height: 5vw;
   }
 
   .nav {
